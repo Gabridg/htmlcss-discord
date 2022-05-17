@@ -92,6 +92,10 @@ ul {
     list-style-type: none;
 }
 
+li {
+    color: #fff;
+}
+
 h2 {
     font-size: 60px;
     margin-bottom: 30px;
@@ -133,7 +137,7 @@ a {
     text-decoration: none;
     color: white;
     padding: 10px 0;
-    display: inline;
+    display: block;
 }
 
 /*sezione header*/
@@ -144,6 +148,11 @@ a {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.flex-box-header {
+    display: flex;
+    justify-content: center;
 }
 
 .header-cont {
@@ -219,6 +228,7 @@ footer {
     display: flex;
     align-items: top;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .column-footer h3 {
@@ -240,7 +250,23 @@ h4 {
     width: 30%;
 }
 
-#nazione:before {
-    height: 100%;
-    content: url(../img/ita.png);
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.lang-sele {
+    margin-bottom: 25px;
+}
+
+
+.nazione {
+    background-color: #23272a;
+    color: #fff;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flag {
+    height: 20px;
 }
