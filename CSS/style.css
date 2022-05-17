@@ -46,6 +46,11 @@ body {
 .button-black {
     color: #fff;
     background-color: #7289da;
+    padding: 7px 16px;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 15px;
+
 }
 
 .black-big {
@@ -76,8 +81,12 @@ body {
     font-size: 15px;
 }
 
+.white-big:hover,
 .button-white:hover {
     color: #7289da;
+}
+
+button:hover {
     cursor: pointer;
 }
 
