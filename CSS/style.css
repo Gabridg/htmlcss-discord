@@ -17,7 +17,6 @@ body {
 /* Utilities */
 
 
-
 .flex-box {
     display: flex;
     padding: 25px 0;
@@ -27,7 +26,7 @@ body {
 
 .flex-box-rx {
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
 .flex-box-sx {
@@ -37,11 +36,6 @@ body {
     justify-content: space-between;
 }
 
-.flex-box-dw {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .button-black {
     color: #fff;
@@ -112,6 +106,10 @@ h2 {
     width: 50%;
 }
 
+.column-rx {
+    padding: 30px;
+    width: 30%;
+}
 
 /* Contenuto */
 
@@ -156,13 +154,18 @@ a {
     margin-bottom: 25px;
 }
 
+/* generale section */
+
+.main-section {
+    padding: 150px 0;
+}
+
 /* prima sezione */
 
-.first-section {
+.odd-section {
     background-color: #fff;
     border-bottom: 2px;
     text-align: left;
-    margin-top: 50px;
 }
 
 .flex-box-rx img {
@@ -172,20 +175,36 @@ a {
 
 /* seconda sezione */
 
-.second-section {
-    padding: 50px;
-    background-color: rgb(202, 202, 202);
+.even-section {
+    background-color: #f6f6f6;
 }
 
 /* terza sezione */
 
 .central-column {
     text-align: center;
+    padding: 50px 100px;
 }
 
 .column-vertical {
     text-align: center;
-    margin: 90px;
+}
+
+.stars {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url('../img/stars.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.alt-button {
+    background-color: #7289da;
+    color: #fff;
 }
 
 /* footer */
